@@ -17,11 +17,11 @@ public class Alerts {
 		
 		//simple alert
 		
-		WebElement a = driver.findElement(By.xpath("(//span[@class='ui-button-text ui-c'])[1]"));
+		// WebElement a = driver.findElement(By.xpath("(//span[@class='ui-button-text ui-c'])[1]"));
 		
-		a.click();
+		// a.click();
 		
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		
 		Alert sa = driver.switchTo().alert();
 		
